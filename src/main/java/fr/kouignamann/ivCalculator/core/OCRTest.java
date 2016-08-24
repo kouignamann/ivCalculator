@@ -4,11 +4,10 @@ import com.github.axet.lookup.*;
 import com.github.axet.lookup.common.*;
 
 import java.io.*;
-import java.net.*;
 
 public class OCRTest {
 
-    static public void main(String[] args) throws URISyntaxException {
+    static public void main(String[] args) {
         OCR l = new OCR(0.70f);
 
         File fontsFile = new File("resources/fonts");
